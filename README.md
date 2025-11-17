@@ -7,9 +7,9 @@ AI 기반 **자동화 시스템**, **딥러닝 모델링**, **웹 서비스 개�
 
 ### 🔧 Tech Stack
 - 🧠 **AI / Machine Learning**: PyTorch, Scikit-learn, Whisper, YOLOv5
-- 🌐 **Web Development**: FastAPI, Flask, Node.js, HTML/CSS/JS
+- 🌐 **Web Development**: FastAPI, Node.js, HTML/CSS/JS
 - 🗄️ **Database**: MySQL, Firebase
-- ⚙️ **Tools / Cloud**: Git, GitHub Actions, Docker, Google Colab, AWS
+- ⚙️ **Tools / Cloud**: Git, GitHub Actions, Google Colab, AWS
 
 ---
 
