@@ -24,8 +24,8 @@ project/
 │
 └── README.md
 ```
-
 ---
+
 
 ##  기술 스택
 
@@ -34,7 +34,7 @@ project/
 - 한국어 회의 음성을 고정밀 텍스트로 변환
 
 ###  NLP 모델링
-- GPT 모델 활용
+- GPT 4.0 모델 활용
   - 회의 요약
   - 주요 결정사항 추출
   - Action Item 분리
@@ -59,6 +59,19 @@ project/
 
 ```
 
+### 프로젝트에서 수행한 주요 개선
+
+요약 품질 문제 해결을 위해 EXAONE → GPT-4.0으로 모델 교체
+
+Few-shot prompting 적용으로 날짜/발화자 정보의 일관성 확보
+
+STT의 상대적 날짜 표현을 절대 날짜로 변환하는 정규화 로직 구현
+
+JSON 깨짐 문제 해결을 위해 schema 기반 프롬프트 + 파싱 검증 추가
+
+전체 파이프라인(STT → 요약 → JSON → DB 저장)을 안전하게 자동화
+
+---
 
 ### 웹페이지 화면
 <img width="1051" height="453" alt="스크린샷 2025-11-27 005641" src="https://github.com/user-attachments/assets/ae5f2c7a-4629-4951-9970-81f312ac0ad4" />
