@@ -28,7 +28,17 @@ project/
 
 
 ##  기술 스택
+```
+## 🛠 Tech Stack
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![Whisper](https://img.shields.io/badge/Whisper-STT-blue)
+![GPT-4](https://img.shields.io/badge/GPT--4-000000?logo=openai&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+```
 ###  Speech-to-Text
 - **OpenAI Whisper Large v3**
 - 한국어 회의 음성을 고정밀 텍스트로 변환
