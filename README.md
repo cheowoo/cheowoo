@@ -53,3 +53,8 @@ project/
     "speaker2": "..."
   }
 }
+
+<img width="1475" height="730" alt="스크린샷 2025-11-25 104702" src="https://github.com/user-attachments/assets/3503ceef-4b83-4e08-9f7e-f494a47263c2" />
+
+
+
