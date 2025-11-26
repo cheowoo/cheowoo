@@ -9,18 +9,19 @@ FastAPI 기반으로 API 서버를 구축하여 외부 서비스와 연동했습
 
 ---
 
+## 📁 프로젝트 구조
 project/
 ├── static/
-│   ├── css/              # 스타일 파일
-│   ├── data/             # JSON 등 데이터 파일
-│   ├── docs/             # 문서, 참고 자료
-│   └── js/               # 프론트엔드 스크립트
+│ ├── css/ # 스타일 파일
+│ ├── data/ # JSON 등 데이터 파일
+│ ├── docs/ # 문서, 참고 자료
+│ └── js/ # 프론트엔드 스크립트
 │
 ├── src/
-│   ├── cer.py                   # CER 계산 및 문자 단위 검증
-│   ├── generate_mock_meeting.py # 회의 Mock 데이터 생성 스크립트
-│   ├── main.py                  # FastAPI 서버 실행 진입점
-│   └── meeting_api.py           # STT + LLM 기반 회의요약 처리 로직
+│ ├── cer.py # CER 계산 및 문자 단위 검증
+│ ├── generate_mock_meeting.py # 회의 Mock 데이터 생성 스크립트
+│ ├── main.py # FastAPI 서버 실행 진입점
+│ └── meeting_api.py # STT + LLM 기반 회의요약 처리 로직
 │
 └── README.md
 
