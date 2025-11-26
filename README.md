@@ -54,8 +54,7 @@ project/
   }
 }
 
+```
 
+<img width="1051" height="453" alt="스크린샷 2025-11-27 005641" src="https://github.com/user-attachments/assets/ae5f2c7a-4629-4951-9970-81f312ac0ad4" />
 
-
-
-<img width="1051" height="453" alt="스크린샷 2025-11-27 005641" src="https://github.com/user-attachments/assets/a47e52d4-a0f0-4596-a788-85f703b16cc7" />
