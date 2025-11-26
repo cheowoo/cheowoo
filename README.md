@@ -28,8 +28,6 @@ project/
 
 
 ##  기술 스택
-```
-## 🛠 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -38,7 +36,10 @@ project/
 ![GPT-4](https://img.shields.io/badge/GPT--4-000000?logo=openai&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-```
+
+
+
+
 ###  Speech-to-Text
 - **OpenAI Whisper Large v3**
 - 한국어 회의 음성을 고정밀 텍스트로 변환
@@ -71,15 +72,16 @@ project/
 
 ### 프로젝트에서 수행한 주요 개선
 
-요약 품질 문제 해결을 위해 EXAONE → GPT-4.0으로 모델 교체
+● 요약 품질 문제 해결을 위해 EXAONE → GPT-4.0으로 모델 교체
 
-Few-shot prompting 적용으로 날짜/발화자 정보의 일관성 확보
+● Few-shot prompting 적용으로 날짜/발화자 정보의 일관성 확보
 
-STT의 상대적 날짜 표현을 절대 날짜로 변환하는 정규화 로직 구현
+● STT의 상대적 날짜 표현을 절대 날짜로 변환하는 정규화 로직 구현
 
-JSON 깨짐 문제 해결을 위해 schema 기반 프롬프트 + 파싱 검증 추가
+● JSON 깨짐 문제 해결을 위해 schema 기반 프롬프트 + 파싱 검증 추가
 
-전체 파이프라인(STT → 요약 → JSON → DB 저장)을 안전하게 자동화
+●  전체 파이프라인(STT → 요약 → JSON → DB 저장)을 안전하게 자동화
+-
 
 ---
 
