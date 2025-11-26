@@ -4,8 +4,11 @@ Whisper Large v3로 음성 데이터를 텍스트로 변환하고 GPT 모델을 
 최종 결과는 JSON 형태로 DB에 저장되며 회의록을 쉽게 찾아 볼수 있게 docx 생성과 FastAPI 기반으로 API 서버를 구축하여 외부 서비스와 연동했습니다.
 
 ---
+# 프로젝트를 하게 된 배경 
+여전히 많은 회사는 회의록을 수작업으로 많이 작성하고주요 결정사항과 할 일은 잊혀지기 쉽다는 관점
+AI 기술을 활용한 스마트 회의 시스템으로 이러한 문제점들을 근본적으로 개선
 ```
- 프로젝트 구조
+프로젝트 구조
 project/
 ├── static/
 │ ├── css/ # 스타일 파일
@@ -24,7 +27,7 @@ project/
 
 ---
 
-## 🔧 기술 스택
+##  기술 스택
 
 ###  Speech-to-Text
 - **OpenAI Whisper Large v3**
@@ -59,4 +62,11 @@ project/
 
 ### 웹페이지 화면
 <img width="1051" height="453" alt="스크린샷 2025-11-27 005641" src="https://github.com/user-attachments/assets/ae5f2c7a-4629-4951-9970-81f312ac0ad4" />
+
+### DB
+<img width="1749" height="572" alt="스크린샷 2025-11-25 105603" src="https://github.com/user-attachments/assets/baef93ce-1b9a-412a-abb2-49a11e6f684b" />
+
+### docx 회의록
+<img width="633" height="782" alt="image" src="https://github.com/user-attachments/assets/8250c684-c163-496b-bca3-785e1c56f7d1" />
+
 
