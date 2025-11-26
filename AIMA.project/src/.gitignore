@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Virtual env
+venv/
+env/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI artifacts
+*.db
